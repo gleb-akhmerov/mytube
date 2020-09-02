@@ -1,0 +1,69 @@
+/* Reflowable grid */
+
+.gallery {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(14em, 1fr));
+}
+
+body {
+  margin: 1em;
+}
+
+.thumbnail {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+/* Colors, spacing, fonts */
+
+body {
+  font-family: sans-serif;
+}
+
+.channel-link {
+  color: #767676;
+}
+
+a {
+  text-decoration-line: none;
+  line-height: 1.3em;
+  color: #167ac6;
+}
+
+.title {
+  padding-top: 0.4em;
+}
+
+.channel {
+  margin-top: 0.4em;
+}
+
+.header {
+  margin-bottom: 1em;
+}
+
+.header > a {
+  display: inline-block;
+  color: black;
+  background: lightgrey;
+  padding: 0.3em;
+  margin-right: 0.4em;
+}
+
+.subscriptions-channel {
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  margin-bottom: 0.3em;
+  display: inline-block;
+}
+
+.thumbnail-div {
+  width: 100%;
+  height: 0%;
+  padding-top: 56.25%; /* 9/16 */
+  position: relative;
+}
